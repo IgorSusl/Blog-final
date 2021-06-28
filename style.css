@@ -21,6 +21,10 @@ body{
     padding-left: 15px;
     padding-right: 15px;
 }
+
+/* header------------------------------------------------------ */
+
+
 .header{
     position: sticky;
     top: 0;
@@ -32,15 +36,14 @@ body{
 .logo{
 padding-top: 8px;
 }
-.head-menu{
 
-}
 .row-headMenu{
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    
 
 }
 
@@ -106,6 +109,8 @@ padding-top: 8px;
     color: #a4aead;
 }
 
+/* slider-------------------------------------------------------- */
+
 .scroll{
     background-image: url(images/img\ \(2\).png);
     padding-top: 214px;
@@ -167,6 +172,19 @@ padding-top: 8px;
     background-color: #39a492;
     border-color: #39a492;
 }
+
+.slick-dots li button:before{
+    color: white;
+    font-size: 12px;
+}
+.slick-dots{
+    bottom: 20px;
+    text-align: right;
+}
+
+
+
+
 
 .main{
     background-color: white;
@@ -328,8 +346,8 @@ padding-top: 8px;
 }
 
 /* work */
-.work{
-    background-color: #3a454d;
+.work-main{
+    background-color: #292f36;
     padding-bottom: 30px;
 }
 .work1{
@@ -394,7 +412,7 @@ padding-top: 8px;
 
 }
 .background-work{
-    background: #3a454d;
+    background: #292f36;
 }
 .name-block-work{
     color: white;
@@ -429,9 +447,9 @@ padding-top: 8px;
     margin: auto;
 }
 
-/* feaures */
+/* fetaures */
 
-.features{
+.features-main{
     background-color: #292f36;
 }
 .features-title{
@@ -466,6 +484,27 @@ flex-direction: column;
 }
 .fiature-row{
     margin-top: -15px;
+}
+
+/* copyrights ---------------------------------------------------*/
+
+.copyrights{
+    background-color:#3a454d;
+}
+.copyrights-row{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.copyrights-all{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-top: 4px;
+
+}
+.copyrights-teg-net>a>img {
+    width: 25px;
 }
 
 
@@ -536,18 +575,7 @@ flex-direction: column;
     background: #4e5a62;
     margin-left: 0;
 }
-.nav-mobile-menu{
-    width: 15px;
-    height: 15px;
-    position: relative;
-}
-.nav-mobile-menu span{
-    height: 1px;
-    background-color: white;
-    position: absolute;
-    left: 0;
-    right: 0;
-}
+
 
 
 

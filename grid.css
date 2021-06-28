@@ -314,6 +314,7 @@
         display: flex;
         align-items: center;
         overflow-x: scroll;
+        position: relative;
     }
     .headMenu>ul>li:first-child{
         margin-left: 0px
@@ -353,6 +354,65 @@
         left: 0;
         right: 0;
     }
+    .nav-mobile-menu {
+        width: 15px;
+        height: 15px;
+        position: fixed;
+        top: 33px;
+        right: 30px;
+    }
+    .nav-mobile-menu span {
+        height: 1px;
+        background-color: white;
+        position: absolute;
+        left: 0;
+        right: 0;
+        transition: .25s ease-in-out;
+        margin: 0 auto;
+    }
+    .nav-mobile-menu span:first-child{
+        top: 3px;
+    }
+    .nav-mobile-menu span:nth-child(2){
+        top: 7px;
+    }
+    .nav-mobile-menu span:last-child{
+        bottom: 3px;
+    }
+
+    .nav-mobile-menu.active-menu span:first-child{
+        top: 50%;
+        transform: rotate(45deg);
+    }
+    .nav-mobile-menu.active-menu span:nth-child(2){
+        top: 50%;
+        transform: rotate(-45deg);
+    }
+    .nav-mobile-menu.active-menu span:last-child{
+        transform: scale(0);
+    }
+    .row-headMenu{
+        opacity: 0;       
+        visibility: hidden;
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        max-width: 280px;
+        width: 280px;
+        transform: translateX(150%);
+
+    }
+    .row-headMenu.active-menu{
+        opacity: 1;
+        visibility: visible;
+        top: px;
+        padding: 25px;
+        transform: translateX(0);
+        flex-direction: column;
+        
+    }
+    .headMenu
 }
 
 .person-info>p{
