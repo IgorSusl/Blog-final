@@ -190,6 +190,8 @@ padding-top: 8px;
     background-color: white;
 
 }
+
+/* modest------------------------------------------- */
 .modest{
     border-bottom: 1px solid #a4aead;
 }
@@ -230,7 +232,7 @@ padding-top: 8px;
 .teg-net{
     display: flex;
 }
-.teg-net>a{
+.teg-net>a>img{
     background-color: #c8cdd0;
     width: 60px;
     height: 60px;

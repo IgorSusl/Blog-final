@@ -329,6 +329,9 @@
     .person{
         margin: 0 auto;
     }
+    .work1{
+        text-align: center;
+    }
     .work1>img{
         width: 270px;
     }
@@ -412,7 +415,9 @@
         flex-direction: column;
         
     }
-    .headMenu
+    .copyrights-teg-net{
+        margin-top: 20px;
+    }
 }
 
 .person-info>p{
