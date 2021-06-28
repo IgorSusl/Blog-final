@@ -331,9 +331,16 @@
     }
     .work1{
         text-align: center;
+        margin: 15px;
     }
     .work1>img{
         width: 270px;
+    }
+    .fiatures-work>img{
+        text-align: center;
+    }
+    .fiatures-work{
+        padding-left: 0;
     }
     .work-info{
         width: 270px;
