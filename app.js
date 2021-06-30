@@ -15,7 +15,7 @@ mobileMenu.addEventListener("click", function () {
 // slick slider
 
 $(".slider-block").slick({
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 3000,
   dots: true,
 });
